@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bhavana Kanderi | Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:linear-gradient(135deg,#1e3c72,#2a5298);
+color:white;
+line-height:1.5;
+}
+
+.container{
+max-width:1000px;
+margin:auto;
+padding:30px 20px;
+}
+
+.hero{
+display:flex;
+align-items:center;
+gap:30px;
+flex-wrap:wrap;
+}
+
+.hero img{
+width:150px;
+height:150px;
+border-radius:50%;
+object-fit:cover;
+border:4px solid white;
+}
+
+.hero-text h1{
+font-size:32px;
+margin-bottom:5px;
+}
+
+.hero-text p{
+opacity:0.9;
+font-size:15px;
+}
+
+.section{
+margin-top:30px;
+background:rgba(255,255,255,0.1);
+padding:25px;
+border-radius:15px;
+}
+
+.section h2{
+margin-bottom:10px;
+font-size:20px;
+border-bottom:2px solid white;
+display:inline-block;
+padding-bottom:4px;
+}
+
+.skills span{
+display:inline-block;
+background:white;
+color:#1e3c72;
+padding:6px 14px;
+margin:6px 6px 0 0;
+border-radius:20px;
+font-size:13px;
+font-weight:500;
+}
+
+.projects{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:15px;
+margin-top:10px;
+}
+
+.project-card{
+background:#ffffff15;
+padding:15px;
+border-radius:12px;
+transition:0.3s;
+font-size:14px;
+}
+
+.project-card:hover{
+transform:translateY(-5px);
+background:white;
+color:#1e3c72;
+}
+
+.btn{
+display:inline-block;
+margin:8px 8px 0 0;
+padding:8px 18px;
+background:white;
+color:#1e3c72;
+border-radius:25px;
+text-decoration:none;
+font-size:14px;
+font-weight:600;
+transition:0.3s;
+}
+
+.btn:hover{
+background:#ddd;
+}
+
+.qr{
+margin-top:15px;
+background:white;
+padding:6px;
+border-radius:10px;
+}
+
+footer{
+margin-top:25px;
+text-align:center;
+font-size:13px;
+opacity:0.8;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="hero">
+<img src="profile.jpg" alt="Bhavana Kanderi">
+<div class="hero-text">
+<h1>Bhavana Kanderi</h1>
+<p>Data Science Student | AI & GenAI Enthusiast</p>
+</div>
+</div>
+
+<div class="section">
+<h2>About Me</h2>
+<p>
+I am a passionate Data Science student focused on Artificial Intelligence,
+Generative AI and Large Language Models. I build impactful AI solutions
+and continuously explore modern technologies.
+</p>
+</div>
+
+<div class="section">
+<h2>Skills</h2>
+<div class="skills">
+<span>Python</span>
+<span>Machine Learning</span>
+<span>Data Science</span>
+<span>Artificial Intelligence</span>
+<span>Generative AI</span>
+<span>LLM Applications</span>
+<span>Git & GitHub</span>
+</div>
+</div>
+
+<div class="section">
+<h2>Projects</h2>
+<div class="projects">
+<div class="project-card">AI-Based Application</div>
+<div class="project-card">Data Analytics Dashboard</div>
+<div class="project-card">Machine Learning Model</div>
+<div class="project-card">Real-world AI Solution</div>
+</div>
+</div>
+
+<div class="section">
+<h2>Connect</h2>
+<a href="YOUR-LINKEDIN-LINK" target="_blank" class="btn">LinkedIn</a>
+<a href="resume.pdf" class="btn">Resume</a>
+
+<h3 style="margin-top:15px;">Scan My Portfolio</h3>
+
+<img 
+src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=https://yourusername.github.io/portfolio/" 
+class="qr">
+</div>
+
+<footer>
+© 2026 Bhavana Kanderi
+</footer>
+
+</div>
+
+</body>
+</html>
