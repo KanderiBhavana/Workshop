@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 
 # 🔴 For local testing only (NOT for GitHub)
-API_KEY = "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"
+API_KEY = "your_key"
 
 st.set_page_config(page_title="AI Tutor", page_icon="🎓")
 
